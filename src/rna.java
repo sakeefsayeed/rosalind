@@ -2,7 +2,7 @@ import java.io.FileNotFoundException;
 import java.io.File;
 import java.util.Scanner;
 
-public class RNA {
+public class rna {
     public static void main(String[] args) throws FileNotFoundException {
         File dataset = new File("resources/rosalind_rna.txt");
         Scanner scanner = new Scanner(dataset);

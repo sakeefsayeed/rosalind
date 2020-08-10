@@ -2,7 +2,7 @@ import java.io.FileNotFoundException;
 import java.io.File;
 import java.util.Scanner;
 
-public class REVC {
+public class revc {
 
     private static StringBuilder reverse (String initial){
         StringBuilder reversed = new StringBuilder(initial);

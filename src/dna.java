@@ -2,7 +2,7 @@ import java.io.FileNotFoundException;
 import java.io.File;
 import java.util.Scanner;
 
-public class DNA {
+public class dna {
 
     private static int countChar(String string, char character){
         int count = 0;
