@@ -15,7 +15,7 @@ public class DNA {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        File dataset = new File("rosalind_dna.txt");
+        File dataset = new File("resources/rosalind_dna.txt");
         Scanner scanner = new Scanner(dataset);
         while (scanner.hasNextLine()){
             String nucleotides = scanner.nextLine();

@@ -27,7 +27,7 @@ public class REVC {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        File dataset = new File("rosalind_revc.txt");
+        File dataset = new File("resources/rosalind_revc.txt");
         Scanner scanner = new Scanner(dataset);
         while (scanner.hasNextLine()){
             String data = scanner.nextLine();
