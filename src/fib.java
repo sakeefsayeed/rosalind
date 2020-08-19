@@ -11,8 +11,7 @@ public class fib {
         pairs.add((long) 1);
         if (months <= 2){
             return pairs.get(months - 1);
-        }
-        else {
+        } else {
             for (int i = 3; i <= months; i++){
                 pairs.add(pairs.get(i - 3)*litterSize + pairs.get(i - 2));
             }
